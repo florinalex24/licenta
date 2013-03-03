@@ -11,37 +11,16 @@ $.fn.loginForm = function(options) {
         window.location="main.php";
       }
       else{
-        addErrorForm(errorMessage.wrong_credentials,this_form);
+        alert("err");
       }
     });
     return false; 
   })
 }            
 }(jQuery));
-
-(function($){
-$.fn.recoverForm = function(options) {
-  var this_form = $(this);
-  $(this).submit(function(){
-    //check_credentials
-    var credentials = $(this).serializeArray();
-    $.post('jq_php/recover_password.php',{credentials:credentials},function(data){
-      var response = jQuery.parseJSON(data);
-      if(response.err==0){
-        $(".recover_hash a").attr("href","index.php?recover="+response.hash);
-        $(".recover_hash").show("slow");
-      }
-      else{
-        addErrorForm(errorMessage.wrong_credentials,this_form);
-      }
-    });
-    return false; 
-  })
-}            
-}(jQuery));
-
-
 //validation form on blur
+
+
 (function($){
 $.fn.validateUserForm = function(options) {
     var defaults = {
@@ -191,7 +170,7 @@ $.fn.submitRegisterForm = function() {
         }
       })
       if(error==1){
-        addErrorForm(errorMessage.end_form,thisForm);
+        addErrorForm(errorMessage.end_form);
         return false;
       }
       else{
@@ -200,18 +179,6 @@ $.fn.submitRegisterForm = function() {
       return false;
     })
 }}(jQuery));
-
-
-
-(function($){
-$.fn.showCreateAccountForm = function() {
-  $(this).click(function(){
-    $("#login_form").slideUp("slow",function(){
-      $("#creeaza_cont").slideDown("slow");
-    })
-  })
-}            
-}(jQuery));
 
 
 function addError(errorMessage,inputName){
@@ -242,11 +209,9 @@ function removeError(errorMessage,inputName){
     $("label[for="+inputName+"]").children().attr('title','');
 }
 
-function addErrorForm(errorMessage,this_form){
-  this_form.find('.error_form').each(function(){
-    $(this).html(errorMessage);
-    $(this).show("slow");
-  })
+function addErrorForm(errorMessage){
+  $('.error_form').html(errorMessage);
+  $('.error_form').show("slow");
 }
 //test function
 (function($){

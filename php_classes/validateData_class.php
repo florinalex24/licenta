@@ -38,6 +38,14 @@ class validateData{
             return 0;
         }
     }
+    public static function validate_id($id){
+        if(isset($id) && $id>0){
+            return 0;
+        }
+        else{
+            return 1;
+        }
+    }
 
 }
 ?>

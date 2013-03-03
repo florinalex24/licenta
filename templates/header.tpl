@@ -12,6 +12,3 @@
     {else}
     {/if}
     
-<div id="header">
- <div id="logo"></div>
-</div>

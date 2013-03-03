@@ -2,12 +2,11 @@
     color:red;
     background-image:url("../images/error.png");
     background-repeat:no-repeat;
-    background-position:3px 5px;
+    background-position:3px 1px;
     text-align:center;
     margin:auto;
     display: inline;
-    height: 30px;
-        
+    
 }
 label span{
     display:none;
@@ -19,21 +18,18 @@ label{
     float:left;
 }
 .pretty{
-    font-family: Arial;
-    border: none;
-    width: 135px;
-    padding:20px;
-    height: 90px;
-    opacity: 0.8;
-    background: url('../images/shadow.png');
-    background-repeat:no-repeat;
-    background-color:transparent;
-    font-size:12px;
-    color:red;
-    border:none !important;
-}
-.recover_hash{
-    display: none;
+	font-family: Arial;
+	border: none;
+	width: 135px;
+	padding:20px;
+	height: 90px;
+	opacity: 0.8;
+	background: url('../images/shadow.png');
+        background-repeat:no-repeat;
+        background-color:transparent;
+        font-size:12px;
+        color:red;
+        border:none !important;
 }
 .smaller{
     font-size:12px;

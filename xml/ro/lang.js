@@ -11,6 +11,5 @@ var errorMessage = {
             "contract":"Eroare! ||| Campul contract trebuie sa fie de forma 1234/31.12.1999",
             "data":"Eroare! ||| Campul data este invalid (ex 31.12.1999)",
 
-            "end_form": "Exista erori in formular!",
-            "wrong_credentials": "Username sau parola incorecte. Va rugam sa incercati din nou!"
+            "end_form": "Exista erori in formular!"
         };
