@@ -1,0 +1,48 @@
+.error{
+    color:red;
+    background-image:url("../images/error.png");
+    background-repeat:no-repeat;
+    background-position:3px 5px;
+    text-align:center;
+    margin:auto;
+    display: inline;
+    height: 30px;
+        
+}
+label span{
+    display:none;
+}
+label{
+    display:block;
+    width:24px;
+    height:20px;
+    float:left;
+}
+.pretty{
+    font-family: Arial;
+    border: none;
+    width: 135px;
+    padding:20px;
+    height: 90px;
+    opacity: 0.8;
+    background: url('../images/shadow.png');
+    background-repeat:no-repeat;
+    background-color:transparent;
+    font-size:12px;
+    color:red;
+    border:none !important;
+}
+.recover_hash{
+    display: none;
+}
+.smaller{
+    font-size:12px;
+    padding-top:20px;
+}
+.error_form{
+    color: red;
+    display: none;
+}
+.p_error_form{
+	color: red;
+}

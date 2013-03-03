@@ -1,0 +1,14 @@
+<translations>
+    <!--form login/register translation-->
+    <translation id="hello_world"><![CDATA[Buna ziua ##username##!]]></translation>
+    <translation id="how_are_you"><![CDATA[Ce mai faci?]]></translation>
+    <translation id="login_name"><![CDATA[Nume?]]></translation>
+    <translation id="login_password"><![CDATA[Parola]]></translation>
+    <translation id="login_login"><![CDATA[Login]]></translation>
+    <translation id="forgot_password"><![CDATA[Ai uitat parola?]]></translation>
+    <translation id="create_account"><![CDATA[Creeaza cont nou]]></translation>
+    <!--validation form translation-->    
+    <translation id="how_are_you"><![CDATA[Ce mai faci?]]></translation>
+    <translation id="how_are_you"><![CDATA[Ce mai faci?]]></translation>
+    <translation id="how_are_you"><![CDATA[Ce mai faci?]]></translation>    
+</translations>

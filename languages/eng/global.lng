@@ -1,0 +1,6 @@
+NG_OK=Ok
+NG_ABORT=Abort
+NG_CANCEL=Cancel
+NG_MULTILINE=This entry spans 2 lines, this is the first
+and this is the second.
+NG_HELLO_WORLD=Hello World!<br>How do you do?
